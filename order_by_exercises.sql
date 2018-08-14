@@ -79,5 +79,4 @@ select *
 from employees
 where birth_date like '%-12-25'
 and hire_date > '1990-%-%'
-order by hire_date desc;
-
+order by birth_date asc, hire_date desc;
