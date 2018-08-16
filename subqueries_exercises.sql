@@ -16,6 +16,7 @@ where emp_no in (
   where first_name like 'Aamod'
 );
 
+
 select dept_name
 from departments
 where dept_no in (
